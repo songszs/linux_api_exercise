@@ -121,7 +121,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=io
+CMAKE_PROJECT_NAME:STATIC=linux_api
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -183,6 +183,12 @@ io_BINARY_DIR:STATIC=/home/zs/workspace/linux_program_test/linux_api/cmake-build
 
 //Value Computed by CMake
 io_SOURCE_DIR:STATIC=/home/zs/workspace/linux_program_test/linux_api
+
+//Value Computed by CMake
+linux_api_BINARY_DIR:STATIC=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug
+
+//Value Computed by CMake
+linux_api_SOURCE_DIR:STATIC=/home/zs/workspace/linux_program_test/linux_api
 
 
 ########################

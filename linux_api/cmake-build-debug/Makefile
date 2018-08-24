@@ -111,44 +111,152 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named io
+# Target rules for targets named linux_api
 
 # Build rule for target.
-io: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 io
-.PHONY : io
+linux_api: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linux_api
+.PHONY : linux_api
 
 # fast build rule for target.
-io/fast:
-	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/build
-.PHONY : io/fast
+linux_api/fast:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/build
+.PHONY : linux_api/fast
 
-main.o: main.c.o
+file_api/copy.o: file_api/copy.c.o
 
-.PHONY : main.o
+.PHONY : file_api/copy.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/main.c.o
-.PHONY : main.c.o
+file_api/copy.c.o:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/file_api/copy.c.o
+.PHONY : file_api/copy.c.o
 
-main.i: main.c.i
+file_api/copy.i: file_api/copy.c.i
 
-.PHONY : main.i
+.PHONY : file_api/copy.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/main.c.i
-.PHONY : main.c.i
+file_api/copy.c.i:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/file_api/copy.c.i
+.PHONY : file_api/copy.c.i
 
-main.s: main.c.s
+file_api/copy.s: file_api/copy.c.s
 
-.PHONY : main.s
+.PHONY : file_api/copy.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/main.c.s
-.PHONY : main.c.s
+file_api/copy.c.s:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/file_api/copy.c.s
+.PHONY : file_api/copy.c.s
+
+lib/alt_functions.o: lib/alt_functions.c.o
+
+.PHONY : lib/alt_functions.o
+
+# target to build an object file
+lib/alt_functions.c.o:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/alt_functions.c.o
+.PHONY : lib/alt_functions.c.o
+
+lib/alt_functions.i: lib/alt_functions.c.i
+
+.PHONY : lib/alt_functions.i
+
+# target to preprocess a source file
+lib/alt_functions.c.i:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/alt_functions.c.i
+.PHONY : lib/alt_functions.c.i
+
+lib/alt_functions.s: lib/alt_functions.c.s
+
+.PHONY : lib/alt_functions.s
+
+# target to generate assembly for a file
+lib/alt_functions.c.s:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/alt_functions.c.s
+.PHONY : lib/alt_functions.c.s
+
+lib/error_functions.o: lib/error_functions.c.o
+
+.PHONY : lib/error_functions.o
+
+# target to build an object file
+lib/error_functions.c.o:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/error_functions.c.o
+.PHONY : lib/error_functions.c.o
+
+lib/error_functions.i: lib/error_functions.c.i
+
+.PHONY : lib/error_functions.i
+
+# target to preprocess a source file
+lib/error_functions.c.i:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/error_functions.c.i
+.PHONY : lib/error_functions.c.i
+
+lib/error_functions.s: lib/error_functions.c.s
+
+.PHONY : lib/error_functions.s
+
+# target to generate assembly for a file
+lib/error_functions.c.s:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/error_functions.c.s
+.PHONY : lib/error_functions.c.s
+
+lib/get_num.o: lib/get_num.c.o
+
+.PHONY : lib/get_num.o
+
+# target to build an object file
+lib/get_num.c.o:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/get_num.c.o
+.PHONY : lib/get_num.c.o
+
+lib/get_num.i: lib/get_num.c.i
+
+.PHONY : lib/get_num.i
+
+# target to preprocess a source file
+lib/get_num.c.i:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/get_num.c.i
+.PHONY : lib/get_num.c.i
+
+lib/get_num.s: lib/get_num.c.s
+
+.PHONY : lib/get_num.s
+
+# target to generate assembly for a file
+lib/get_num.c.s:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/get_num.c.s
+.PHONY : lib/get_num.c.s
+
+lib/syscall_speed.o: lib/syscall_speed.c.o
+
+.PHONY : lib/syscall_speed.o
+
+# target to build an object file
+lib/syscall_speed.c.o:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/syscall_speed.c.o
+.PHONY : lib/syscall_speed.c.o
+
+lib/syscall_speed.i: lib/syscall_speed.c.i
+
+.PHONY : lib/syscall_speed.i
+
+# target to preprocess a source file
+lib/syscall_speed.c.i:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/syscall_speed.c.i
+.PHONY : lib/syscall_speed.c.i
+
+lib/syscall_speed.s: lib/syscall_speed.c.s
+
+.PHONY : lib/syscall_speed.s
+
+# target to generate assembly for a file
+lib/syscall_speed.c.s:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/syscall_speed.c.s
+.PHONY : lib/syscall_speed.c.s
 
 # Help Target
 help:
@@ -158,10 +266,22 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... io"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... linux_api"
+	@echo "... file_api/copy.o"
+	@echo "... file_api/copy.i"
+	@echo "... file_api/copy.s"
+	@echo "... lib/alt_functions.o"
+	@echo "... lib/alt_functions.i"
+	@echo "... lib/alt_functions.s"
+	@echo "... lib/error_functions.o"
+	@echo "... lib/error_functions.i"
+	@echo "... lib/error_functions.s"
+	@echo "... lib/get_num.o"
+	@echo "... lib/get_num.i"
+	@echo "... lib/get_num.s"
+	@echo "... lib/syscall_speed.o"
+	@echo "... lib/syscall_speed.i"
+	@echo "... lib/syscall_speed.s"
 .PHONY : help
 
 

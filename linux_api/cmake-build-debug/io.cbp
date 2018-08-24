@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/main.c">
-			<Option target="io"/>
-		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
