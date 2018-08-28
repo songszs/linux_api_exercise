@@ -123,33 +123,6 @@ linux_api/fast:
 	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/build
 .PHONY : linux_api/fast
 
-file_api/copy.o: file_api/copy.c.o
-
-.PHONY : file_api/copy.o
-
-# target to build an object file
-file_api/copy.c.o:
-	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/file_api/copy.c.o
-.PHONY : file_api/copy.c.o
-
-file_api/copy.i: file_api/copy.c.i
-
-.PHONY : file_api/copy.i
-
-# target to preprocess a source file
-file_api/copy.c.i:
-	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/file_api/copy.c.i
-.PHONY : file_api/copy.c.i
-
-file_api/copy.s: file_api/copy.c.s
-
-.PHONY : file_api/copy.s
-
-# target to generate assembly for a file
-file_api/copy.c.s:
-	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/file_api/copy.c.s
-.PHONY : file_api/copy.c.s
-
 lib/alt_functions.o: lib/alt_functions.c.o
 
 .PHONY : lib/alt_functions.o
@@ -258,6 +231,33 @@ lib/syscall_speed.c.s:
 	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/lib/syscall_speed.c.s
 .PHONY : lib/syscall_speed.c.s
 
+time/time_api.o: time/time_api.c.o
+
+.PHONY : time/time_api.o
+
+# target to build an object file
+time/time_api.c.o:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/time/time_api.c.o
+.PHONY : time/time_api.c.o
+
+time/time_api.i: time/time_api.c.i
+
+.PHONY : time/time_api.i
+
+# target to preprocess a source file
+time/time_api.c.i:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/time/time_api.c.i
+.PHONY : time/time_api.c.i
+
+time/time_api.s: time/time_api.c.s
+
+.PHONY : time/time_api.s
+
+# target to generate assembly for a file
+time/time_api.c.s:
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/time/time_api.c.s
+.PHONY : time/time_api.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,9 +267,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... linux_api"
-	@echo "... file_api/copy.o"
-	@echo "... file_api/copy.i"
-	@echo "... file_api/copy.s"
 	@echo "... lib/alt_functions.o"
 	@echo "... lib/alt_functions.i"
 	@echo "... lib/alt_functions.s"
@@ -282,6 +279,9 @@ help:
 	@echo "... lib/syscall_speed.o"
 	@echo "... lib/syscall_speed.i"
 	@echo "... lib/syscall_speed.s"
+	@echo "... time/time_api.o"
+	@echo "... time/time_api.i"
+	@echo "... time/time_api.s"
 .PHONY : help
 
 

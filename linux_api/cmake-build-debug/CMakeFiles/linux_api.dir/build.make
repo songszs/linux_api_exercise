@@ -57,28 +57,28 @@ include CMakeFiles/linux_api.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linux_api.dir/flags.make
 
-CMakeFiles/linux_api.dir/file_api/copy.c.o: CMakeFiles/linux_api.dir/flags.make
-CMakeFiles/linux_api.dir/file_api/copy.c.o: ../file_api/copy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linux_api.dir/file_api/copy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/file_api/copy.c.o   -c /home/zs/workspace/linux_program_test/linux_api/file_api/copy.c
+CMakeFiles/linux_api.dir/time/time_api.c.o: CMakeFiles/linux_api.dir/flags.make
+CMakeFiles/linux_api.dir/time/time_api.c.o: ../time/time_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linux_api.dir/time/time_api.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/time/time_api.c.o   -c /home/zs/workspace/linux_program_test/linux_api/time/time_api.c
 
-CMakeFiles/linux_api.dir/file_api/copy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linux_api.dir/file_api/copy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zs/workspace/linux_program_test/linux_api/file_api/copy.c > CMakeFiles/linux_api.dir/file_api/copy.c.i
+CMakeFiles/linux_api.dir/time/time_api.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linux_api.dir/time/time_api.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zs/workspace/linux_program_test/linux_api/time/time_api.c > CMakeFiles/linux_api.dir/time/time_api.c.i
 
-CMakeFiles/linux_api.dir/file_api/copy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linux_api.dir/file_api/copy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zs/workspace/linux_program_test/linux_api/file_api/copy.c -o CMakeFiles/linux_api.dir/file_api/copy.c.s
+CMakeFiles/linux_api.dir/time/time_api.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linux_api.dir/time/time_api.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zs/workspace/linux_program_test/linux_api/time/time_api.c -o CMakeFiles/linux_api.dir/time/time_api.c.s
 
-CMakeFiles/linux_api.dir/file_api/copy.c.o.requires:
+CMakeFiles/linux_api.dir/time/time_api.c.o.requires:
 
-.PHONY : CMakeFiles/linux_api.dir/file_api/copy.c.o.requires
+.PHONY : CMakeFiles/linux_api.dir/time/time_api.c.o.requires
 
-CMakeFiles/linux_api.dir/file_api/copy.c.o.provides: CMakeFiles/linux_api.dir/file_api/copy.c.o.requires
-	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/file_api/copy.c.o.provides.build
-.PHONY : CMakeFiles/linux_api.dir/file_api/copy.c.o.provides
+CMakeFiles/linux_api.dir/time/time_api.c.o.provides: CMakeFiles/linux_api.dir/time/time_api.c.o.requires
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/time/time_api.c.o.provides.build
+.PHONY : CMakeFiles/linux_api.dir/time/time_api.c.o.provides
 
-CMakeFiles/linux_api.dir/file_api/copy.c.o.provides.build: CMakeFiles/linux_api.dir/file_api/copy.c.o
+CMakeFiles/linux_api.dir/time/time_api.c.o.provides.build: CMakeFiles/linux_api.dir/time/time_api.c.o
 
 
 CMakeFiles/linux_api.dir/lib/error_functions.c.o: CMakeFiles/linux_api.dir/flags.make
@@ -179,7 +179,7 @@ CMakeFiles/linux_api.dir/lib/syscall_speed.c.o.provides.build: CMakeFiles/linux_
 
 # Object files for target linux_api
 linux_api_OBJECTS = \
-"CMakeFiles/linux_api.dir/file_api/copy.c.o" \
+"CMakeFiles/linux_api.dir/time/time_api.c.o" \
 "CMakeFiles/linux_api.dir/lib/error_functions.c.o" \
 "CMakeFiles/linux_api.dir/lib/get_num.c.o" \
 "CMakeFiles/linux_api.dir/lib/alt_functions.c.o" \
@@ -188,7 +188,7 @@ linux_api_OBJECTS = \
 # External object files for target linux_api
 linux_api_EXTERNAL_OBJECTS =
 
-linux_api: CMakeFiles/linux_api.dir/file_api/copy.c.o
+linux_api: CMakeFiles/linux_api.dir/time/time_api.c.o
 linux_api: CMakeFiles/linux_api.dir/lib/error_functions.c.o
 linux_api: CMakeFiles/linux_api.dir/lib/get_num.c.o
 linux_api: CMakeFiles/linux_api.dir/lib/alt_functions.c.o
@@ -203,7 +203,7 @@ CMakeFiles/linux_api.dir/build: linux_api
 
 .PHONY : CMakeFiles/linux_api.dir/build
 
-CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/file_api/copy.c.o.requires
+CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/time/time_api.c.o.requires
 CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/lib/error_functions.c.o.requires
 CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/lib/get_num.c.o.requires
 CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/lib/alt_functions.c.o.requires

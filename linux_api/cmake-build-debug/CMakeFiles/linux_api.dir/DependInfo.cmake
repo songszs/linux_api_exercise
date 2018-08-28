@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/zs/workspace/linux_program_test/linux_api/file_api/copy.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/linux_api.dir/file_api/copy.c.o"
   "/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/linux_api.dir/lib/alt_functions.c.o"
   "/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/linux_api.dir/lib/error_functions.c.o"
   "/home/zs/workspace/linux_program_test/linux_api/lib/get_num.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/linux_api.dir/lib/get_num.c.o"
   "/home/zs/workspace/linux_program_test/linux_api/lib/syscall_speed.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/linux_api.dir/lib/syscall_speed.c.o"
+  "/home/zs/workspace/linux_program_test/linux_api/time/time_api.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/linux_api.dir/time/time_api.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

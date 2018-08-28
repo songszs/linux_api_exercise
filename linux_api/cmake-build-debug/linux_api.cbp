@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/file_api/copy.c">
-			<Option target="linux_api"/>
-		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.c">
 			<Option target="linux_api"/>
 		</Unit>
@@ -112,6 +109,9 @@
 			<Option target="linux_api"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/tlpi_hdr.h">
+			<Option target="linux_api"/>
+		</Unit>
+		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/time/time_api.c">
 			<Option target="linux_api"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/CMakeLists.txt">

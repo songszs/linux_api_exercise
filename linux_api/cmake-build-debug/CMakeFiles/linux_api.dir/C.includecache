@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/zs/workspace/linux_program_test/linux_api/file_api/copy.c
-stdio.h
--
-fcntl.h
--
-string.h
--
-zconf.h
--
-stdlib.h
--
-../lib/error_functions.h
-/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h
-
 /home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.c
 stdio.h
 -
@@ -83,4 +69,16 @@ error_functions.h
 /home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h
 sys/file.h
 -
+
+/home/zs/workspace/linux_program_test/linux_api/time/time_api.c
+time.h
+-
+sys/times.h
+-
+sys/time.h
+-
+../lib/tlpi_hdr.h
+/home/zs/workspace/linux_program_test/linux_api/lib/tlpi_hdr.h
+../lib/error_functions.h
+/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h
 
