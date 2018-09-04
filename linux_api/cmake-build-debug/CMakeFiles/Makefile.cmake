@@ -44,5 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/linux_api.dir/DependInfo.cmake"
+  "CMakeFiles/signal_receiver.dir/DependInfo.cmake"
+  "CMakeFiles/signal_sender.dir/DependInfo.cmake"
+  "CMakeFiles/necho_args.dir/DependInfo.cmake"
   )

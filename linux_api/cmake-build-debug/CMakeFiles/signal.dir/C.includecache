@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h
+
+/home/zs/workspace/linux_program_test/linux_api/lib/get_num.h
+
+/home/zs/workspace/linux_program_test/linux_api/signal/signal_sender.c
+termio.h
+-
+string.h
+-
+printf.h
+-
+signal.h
+-
+stdlib.h
+-
+../lib/error_functions.h
+/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h
+../lib/get_num.h
+/home/zs/workspace/linux_program_test/linux_api/lib/get_num.h
+

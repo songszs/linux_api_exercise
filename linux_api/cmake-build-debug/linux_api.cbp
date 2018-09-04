@@ -37,8 +37,8 @@
 					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="linux_api">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/linux_api" prefix_auto="0" extension_auto="0"/>
+			<Target title="signal_receiver">
+				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_receiver" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -54,14 +54,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 linux_api"/>
+					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_receiver"/>
 					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="linux_api/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/linux_api" prefix_auto="0" extension_auto="0"/>
+			<Target title="signal_receiver/fast">
+				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_receiver" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -77,7 +77,99 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 linux_api/fast"/>
+					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_receiver/fast"/>
+					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal_sender">
+				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_sender" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_sender"/>
+					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal_sender/fast">
+				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_sender" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_sender/fast"/>
+					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="necho_args">
+				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/necho_args" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 necho_args"/>
+					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="necho_args/fast">
+				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/necho_args" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 necho_args/fast"/>
 					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,34 +177,57 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.c">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.h">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/ename.c.inc">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.c">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/get_num.c">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/get_num.h">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/syscall_speed.c">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/tlpi_hdr.h">
-			<Option target="linux_api"/>
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
 		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/time/time_api.c">
-			<Option target="linux_api"/>
+		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/process/necho_args.c">
+			<Option target="necho_args"/>
+		</Unit>
+		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.c">
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
+		</Unit>
+		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.h">
+			<Option target="signal_receiver"/>
+			<Option target="signal_sender"/>
+		</Unit>
+		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_receiver.c">
+			<Option target="signal_receiver"/>
+		</Unit>
+		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_sender.c">
+			<Option target="signal_sender"/>
 		</Unit>
 		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -18,8 +18,15 @@ CMakeFiles/linux_api.dir/lib/syscall_speed.c.o: ../lib/get_num.h
 CMakeFiles/linux_api.dir/lib/syscall_speed.c.o: ../lib/syscall_speed.c
 CMakeFiles/linux_api.dir/lib/syscall_speed.c.o: ../lib/tlpi_hdr.h
 
-CMakeFiles/linux_api.dir/time/time_api.c.o: ../lib/error_functions.h
-CMakeFiles/linux_api.dir/time/time_api.c.o: ../lib/get_num.h
-CMakeFiles/linux_api.dir/time/time_api.c.o: ../lib/tlpi_hdr.h
-CMakeFiles/linux_api.dir/time/time_api.c.o: ../time/time_api.c
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o: ../lib/error_functions.h
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o: ../lib/get_num.h
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o: ../lib/tlpi_hdr.h
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o: ../signal/signal_functions.c
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o: ../signal/signal_functions.h
+
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o: ../lib/error_functions.h
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o: ../lib/get_num.h
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o: ../lib/tlpi_hdr.h
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o: ../signal/signal_functions.h
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o: ../signal/signal_receiver.c
 

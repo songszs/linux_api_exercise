@@ -57,33 +57,9 @@ include CMakeFiles/linux_api.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linux_api.dir/flags.make
 
-CMakeFiles/linux_api.dir/time/time_api.c.o: CMakeFiles/linux_api.dir/flags.make
-CMakeFiles/linux_api.dir/time/time_api.c.o: ../time/time_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linux_api.dir/time/time_api.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/time/time_api.c.o   -c /home/zs/workspace/linux_program_test/linux_api/time/time_api.c
-
-CMakeFiles/linux_api.dir/time/time_api.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linux_api.dir/time/time_api.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zs/workspace/linux_program_test/linux_api/time/time_api.c > CMakeFiles/linux_api.dir/time/time_api.c.i
-
-CMakeFiles/linux_api.dir/time/time_api.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linux_api.dir/time/time_api.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zs/workspace/linux_program_test/linux_api/time/time_api.c -o CMakeFiles/linux_api.dir/time/time_api.c.s
-
-CMakeFiles/linux_api.dir/time/time_api.c.o.requires:
-
-.PHONY : CMakeFiles/linux_api.dir/time/time_api.c.o.requires
-
-CMakeFiles/linux_api.dir/time/time_api.c.o.provides: CMakeFiles/linux_api.dir/time/time_api.c.o.requires
-	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/time/time_api.c.o.provides.build
-.PHONY : CMakeFiles/linux_api.dir/time/time_api.c.o.provides
-
-CMakeFiles/linux_api.dir/time/time_api.c.o.provides.build: CMakeFiles/linux_api.dir/time/time_api.c.o
-
-
 CMakeFiles/linux_api.dir/lib/error_functions.c.o: CMakeFiles/linux_api.dir/flags.make
 CMakeFiles/linux_api.dir/lib/error_functions.c.o: ../lib/error_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/linux_api.dir/lib/error_functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linux_api.dir/lib/error_functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/lib/error_functions.c.o   -c /home/zs/workspace/linux_program_test/linux_api/lib/error_functions.c
 
 CMakeFiles/linux_api.dir/lib/error_functions.c.i: cmake_force
@@ -107,7 +83,7 @@ CMakeFiles/linux_api.dir/lib/error_functions.c.o.provides.build: CMakeFiles/linu
 
 CMakeFiles/linux_api.dir/lib/get_num.c.o: CMakeFiles/linux_api.dir/flags.make
 CMakeFiles/linux_api.dir/lib/get_num.c.o: ../lib/get_num.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/linux_api.dir/lib/get_num.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/linux_api.dir/lib/get_num.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/lib/get_num.c.o   -c /home/zs/workspace/linux_program_test/linux_api/lib/get_num.c
 
 CMakeFiles/linux_api.dir/lib/get_num.c.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/linux_api.dir/lib/get_num.c.o.provides.build: CMakeFiles/linux_api.di
 
 CMakeFiles/linux_api.dir/lib/alt_functions.c.o: CMakeFiles/linux_api.dir/flags.make
 CMakeFiles/linux_api.dir/lib/alt_functions.c.o: ../lib/alt_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/linux_api.dir/lib/alt_functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/linux_api.dir/lib/alt_functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/lib/alt_functions.c.o   -c /home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.c
 
 CMakeFiles/linux_api.dir/lib/alt_functions.c.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/linux_api.dir/lib/alt_functions.c.o.provides.build: CMakeFiles/linux_
 
 CMakeFiles/linux_api.dir/lib/syscall_speed.c.o: CMakeFiles/linux_api.dir/flags.make
 CMakeFiles/linux_api.dir/lib/syscall_speed.c.o: ../lib/syscall_speed.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/linux_api.dir/lib/syscall_speed.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/linux_api.dir/lib/syscall_speed.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/lib/syscall_speed.c.o   -c /home/zs/workspace/linux_program_test/linux_api/lib/syscall_speed.c
 
 CMakeFiles/linux_api.dir/lib/syscall_speed.c.i: cmake_force
@@ -177,25 +153,101 @@ CMakeFiles/linux_api.dir/lib/syscall_speed.c.o.provides: CMakeFiles/linux_api.di
 CMakeFiles/linux_api.dir/lib/syscall_speed.c.o.provides.build: CMakeFiles/linux_api.dir/lib/syscall_speed.c.o
 
 
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o: CMakeFiles/linux_api.dir/flags.make
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o: ../signal/signal_receiver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/linux_api.dir/signal/signal_receiver.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/signal/signal_receiver.c.o   -c /home/zs/workspace/linux_program_test/linux_api/signal/signal_receiver.c
+
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linux_api.dir/signal/signal_receiver.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zs/workspace/linux_program_test/linux_api/signal/signal_receiver.c > CMakeFiles/linux_api.dir/signal/signal_receiver.c.i
+
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linux_api.dir/signal/signal_receiver.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zs/workspace/linux_program_test/linux_api/signal/signal_receiver.c -o CMakeFiles/linux_api.dir/signal/signal_receiver.c.s
+
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o.requires:
+
+.PHONY : CMakeFiles/linux_api.dir/signal/signal_receiver.c.o.requires
+
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o.provides: CMakeFiles/linux_api.dir/signal/signal_receiver.c.o.requires
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/signal/signal_receiver.c.o.provides.build
+.PHONY : CMakeFiles/linux_api.dir/signal/signal_receiver.c.o.provides
+
+CMakeFiles/linux_api.dir/signal/signal_receiver.c.o.provides.build: CMakeFiles/linux_api.dir/signal/signal_receiver.c.o
+
+
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o: CMakeFiles/linux_api.dir/flags.make
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o: ../signal/signal_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/linux_api.dir/signal/signal_functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/signal/signal_functions.c.o   -c /home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.c
+
+CMakeFiles/linux_api.dir/signal/signal_functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linux_api.dir/signal/signal_functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.c > CMakeFiles/linux_api.dir/signal/signal_functions.c.i
+
+CMakeFiles/linux_api.dir/signal/signal_functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linux_api.dir/signal/signal_functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.c -o CMakeFiles/linux_api.dir/signal/signal_functions.c.s
+
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o.requires:
+
+.PHONY : CMakeFiles/linux_api.dir/signal/signal_functions.c.o.requires
+
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o.provides: CMakeFiles/linux_api.dir/signal/signal_functions.c.o.requires
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/signal/signal_functions.c.o.provides.build
+.PHONY : CMakeFiles/linux_api.dir/signal/signal_functions.c.o.provides
+
+CMakeFiles/linux_api.dir/signal/signal_functions.c.o.provides.build: CMakeFiles/linux_api.dir/signal/signal_functions.c.o
+
+
+CMakeFiles/linux_api.dir/signal/signal_sender.c.o: CMakeFiles/linux_api.dir/flags.make
+CMakeFiles/linux_api.dir/signal/signal_sender.c.o: ../signal/signal_sender.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/linux_api.dir/signal/signal_sender.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linux_api.dir/signal/signal_sender.c.o   -c /home/zs/workspace/linux_program_test/linux_api/signal/signal_sender.c
+
+CMakeFiles/linux_api.dir/signal/signal_sender.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linux_api.dir/signal/signal_sender.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zs/workspace/linux_program_test/linux_api/signal/signal_sender.c > CMakeFiles/linux_api.dir/signal/signal_sender.c.i
+
+CMakeFiles/linux_api.dir/signal/signal_sender.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linux_api.dir/signal/signal_sender.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zs/workspace/linux_program_test/linux_api/signal/signal_sender.c -o CMakeFiles/linux_api.dir/signal/signal_sender.c.s
+
+CMakeFiles/linux_api.dir/signal/signal_sender.c.o.requires:
+
+.PHONY : CMakeFiles/linux_api.dir/signal/signal_sender.c.o.requires
+
+CMakeFiles/linux_api.dir/signal/signal_sender.c.o.provides: CMakeFiles/linux_api.dir/signal/signal_sender.c.o.requires
+	$(MAKE) -f CMakeFiles/linux_api.dir/build.make CMakeFiles/linux_api.dir/signal/signal_sender.c.o.provides.build
+.PHONY : CMakeFiles/linux_api.dir/signal/signal_sender.c.o.provides
+
+CMakeFiles/linux_api.dir/signal/signal_sender.c.o.provides.build: CMakeFiles/linux_api.dir/signal/signal_sender.c.o
+
+
 # Object files for target linux_api
 linux_api_OBJECTS = \
-"CMakeFiles/linux_api.dir/time/time_api.c.o" \
 "CMakeFiles/linux_api.dir/lib/error_functions.c.o" \
 "CMakeFiles/linux_api.dir/lib/get_num.c.o" \
 "CMakeFiles/linux_api.dir/lib/alt_functions.c.o" \
-"CMakeFiles/linux_api.dir/lib/syscall_speed.c.o"
+"CMakeFiles/linux_api.dir/lib/syscall_speed.c.o" \
+"CMakeFiles/linux_api.dir/signal/signal_receiver.c.o" \
+"CMakeFiles/linux_api.dir/signal/signal_functions.c.o" \
+"CMakeFiles/linux_api.dir/signal/signal_sender.c.o"
 
 # External object files for target linux_api
 linux_api_EXTERNAL_OBJECTS =
 
-linux_api: CMakeFiles/linux_api.dir/time/time_api.c.o
 linux_api: CMakeFiles/linux_api.dir/lib/error_functions.c.o
 linux_api: CMakeFiles/linux_api.dir/lib/get_num.c.o
 linux_api: CMakeFiles/linux_api.dir/lib/alt_functions.c.o
 linux_api: CMakeFiles/linux_api.dir/lib/syscall_speed.c.o
+linux_api: CMakeFiles/linux_api.dir/signal/signal_receiver.c.o
+linux_api: CMakeFiles/linux_api.dir/signal/signal_functions.c.o
+linux_api: CMakeFiles/linux_api.dir/signal/signal_sender.c.o
 linux_api: CMakeFiles/linux_api.dir/build.make
 linux_api: CMakeFiles/linux_api.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable linux_api"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable linux_api"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/linux_api.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,11 +255,13 @@ CMakeFiles/linux_api.dir/build: linux_api
 
 .PHONY : CMakeFiles/linux_api.dir/build
 
-CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/time/time_api.c.o.requires
 CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/lib/error_functions.c.o.requires
 CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/lib/get_num.c.o.requires
 CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/lib/alt_functions.c.o.requires
 CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/lib/syscall_speed.c.o.requires
+CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/signal/signal_receiver.c.o.requires
+CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/signal/signal_functions.c.o.requires
+CMakeFiles/linux_api.dir/requires: CMakeFiles/linux_api.dir/signal/signal_sender.c.o.requires
 
 .PHONY : CMakeFiles/linux_api.dir/requires
 
