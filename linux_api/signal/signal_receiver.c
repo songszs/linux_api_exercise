@@ -44,6 +44,7 @@ int main(int argc, char *argv[]) {
         //初始化一个包含了所有信号的信号集
         sigfillset(&blockingMask);
 
+        //设置阻塞所有信号的掩码
         if (sigprocmask(SIG_SETMASK, &blockingMask, NULL) == -1)
             errExit("sigprocmask");
 
@@ -57,6 +58,7 @@ int main(int argc, char *argv[]) {
 
         //初始化一个未包含任何信号的信号集
         sigemptyset(&emptyMask);
+        //取消所有信号的阻塞
         if (sigprocmask(SIG_SETMASK, &emptyMask, NULL) == -1)
             errExit("sigprocmask");
     }

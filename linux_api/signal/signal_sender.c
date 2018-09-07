@@ -19,6 +19,7 @@ int main(int argc, char *argv[]) {
 
     pid = getLong(argv[1], 0, "PID");
     numSigs = getInt(argv[2], GN_GT_0, "sig-num");
+    sig = getInt(argv[3], 0, "sig-num");
 
     printf("%s: sending singal %d to process %ld %d times \n",
            argv[0], sig, (long) pid, numSigs);
