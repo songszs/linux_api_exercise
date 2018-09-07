@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/catch_t_sigs.dir/signal/catch_t_sigs.c.o CMakeFiles/catch_t_sigs.dir/lib/error_functions.c.o CMakeFiles/catch_t_sigs.dir/lib/get_num.c.o CMakeFiles/catch_t_sigs.dir/lib/alt_functions.c.o CMakeFiles/catch_t_sigs.dir/lib/syscall_speed.c.o CMakeFiles/catch_t_sigs.dir/signal/signal_functions.c.o  -o catch_t_sigs 

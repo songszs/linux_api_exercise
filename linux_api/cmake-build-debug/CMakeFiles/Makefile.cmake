@@ -44,7 +44,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/signalqueue.dir/DependInfo.cmake"
   "CMakeFiles/signal_receiver.dir/DependInfo.cmake"
   "CMakeFiles/signal_sender.dir/DependInfo.cmake"
+  "CMakeFiles/catch_t_sigs.dir/DependInfo.cmake"
   "CMakeFiles/necho_args.dir/DependInfo.cmake"
   )
