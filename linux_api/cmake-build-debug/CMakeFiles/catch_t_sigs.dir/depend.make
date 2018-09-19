@@ -18,6 +18,10 @@ CMakeFiles/catch_t_sigs.dir/lib/syscall_speed.c.o: ../lib/get_num.h
 CMakeFiles/catch_t_sigs.dir/lib/syscall_speed.c.o: ../lib/syscall_speed.c
 CMakeFiles/catch_t_sigs.dir/lib/syscall_speed.c.o: ../lib/tlpi_hdr.h
 
+CMakeFiles/catch_t_sigs.dir/signal/catch_sigchld.c.o: ../lib/error_functions.h
+CMakeFiles/catch_t_sigs.dir/signal/catch_sigchld.c.o: ../lib/get_num.h
+CMakeFiles/catch_t_sigs.dir/signal/catch_sigchld.c.o: ../signal/catch_sigchld.c
+
 CMakeFiles/catch_t_sigs.dir/signal/catch_t_sigs.c.o: ../lib/error_functions.h
 CMakeFiles/catch_t_sigs.dir/signal/catch_t_sigs.c.o: ../lib/get_num.h
 CMakeFiles/catch_t_sigs.dir/signal/catch_t_sigs.c.o: ../signal/catch_t_sigs.c

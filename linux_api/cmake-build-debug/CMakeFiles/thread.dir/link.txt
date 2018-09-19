@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/thread.dir/thread/pthread_create.c.o CMakeFiles/thread.dir/lib/error_functions.c.o CMakeFiles/thread.dir/lib/get_num.c.o CMakeFiles/thread.dir/lib/alt_functions.c.o CMakeFiles/thread.dir/lib/syscall_speed.c.o CMakeFiles/thread.dir/signal/signal_functions.c.o  -o thread -lpthread 

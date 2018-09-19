@@ -4,11 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/signal_sender.dir/lib/alt_functions.c.o"
-  "/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/signal_sender.dir/lib/error_functions.c.o"
-  "/home/zs/workspace/linux_program_test/linux_api/lib/get_num.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/signal_sender.dir/lib/get_num.c.o"
-  "/home/zs/workspace/linux_program_test/linux_api/lib/syscall_speed.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/signal_sender.dir/lib/syscall_speed.c.o"
-  "/home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/signal_sender.dir/signal/signal_functions.c.o"
   "/home/zs/workspace/linux_program_test/linux_api/signal/signal_sender.c" "/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles/signal_sender.dir/signal/signal_sender.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

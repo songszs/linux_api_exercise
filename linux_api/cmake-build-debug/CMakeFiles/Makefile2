@@ -60,39 +60,76 @@ CMAKE_SOURCE_DIR = /home/zs/workspace/linux_program_test/linux_api
 CMAKE_BINARY_DIR = /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/signalqueue.dir
+# Target rules for target CMakeFiles/product_consumer_cond.dir
 
 # All Build rule for target.
-CMakeFiles/signalqueue.dir/all:
-	$(MAKE) -f CMakeFiles/signalqueue.dir/build.make CMakeFiles/signalqueue.dir/depend
-	$(MAKE) -f CMakeFiles/signalqueue.dir/build.make CMakeFiles/signalqueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=24,25,26,27,28,29,30 "Built target signalqueue"
-.PHONY : CMakeFiles/signalqueue.dir/all
+CMakeFiles/product_consumer_cond.dir/all:
+	$(MAKE) -f CMakeFiles/product_consumer_cond.dir/build.make CMakeFiles/product_consumer_cond.dir/depend
+	$(MAKE) -f CMakeFiles/product_consumer_cond.dir/build.make CMakeFiles/product_consumer_cond.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=31,32,33,34,35,36,37 "Built target product_consumer_cond"
+.PHONY : CMakeFiles/product_consumer_cond.dir/all
 
 # Include target in all.
-all: CMakeFiles/signalqueue.dir/all
+all: CMakeFiles/product_consumer_cond.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/signalqueue.dir/rule: cmake_check_build_system
+CMakeFiles/product_consumer_cond.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/signalqueue.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/product_consumer_cond.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/signalqueue.dir/rule
+.PHONY : CMakeFiles/product_consumer_cond.dir/rule
 
 # Convenience name for target.
-signalqueue: CMakeFiles/signalqueue.dir/rule
+product_consumer_cond: CMakeFiles/product_consumer_cond.dir/rule
 
-.PHONY : signalqueue
-
-# clean rule for target.
-CMakeFiles/signalqueue.dir/clean:
-	$(MAKE) -f CMakeFiles/signalqueue.dir/build.make CMakeFiles/signalqueue.dir/clean
-.PHONY : CMakeFiles/signalqueue.dir/clean
+.PHONY : product_consumer_cond
 
 # clean rule for target.
-clean: CMakeFiles/signalqueue.dir/clean
+CMakeFiles/product_consumer_cond.dir/clean:
+	$(MAKE) -f CMakeFiles/product_consumer_cond.dir/build.make CMakeFiles/product_consumer_cond.dir/clean
+.PHONY : CMakeFiles/product_consumer_cond.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/product_consumer_cond.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/signal_sender.dir
+
+# All Build rule for target.
+CMakeFiles/signal_sender.dir/all:
+	$(MAKE) -f CMakeFiles/signal_sender.dir/build.make CMakeFiles/signal_sender.dir/depend
+	$(MAKE) -f CMakeFiles/signal_sender.dir/build.make CMakeFiles/signal_sender.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target signal_sender"
+.PHONY : CMakeFiles/signal_sender.dir/all
+
+# Include target in all.
+all: CMakeFiles/signal_sender.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/signal_sender.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/signal_sender.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/signal_sender.dir/rule
+
+# Convenience name for target.
+signal_sender: CMakeFiles/signal_sender.dir/rule
+
+.PHONY : signal_sender
+
+# clean rule for target.
+CMakeFiles/signal_sender.dir/clean:
+	$(MAKE) -f CMakeFiles/signal_sender.dir/build.make CMakeFiles/signal_sender.dir/clean
+.PHONY : CMakeFiles/signal_sender.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/signal_sender.dir/clean
 
 .PHONY : clean
 
@@ -103,7 +140,7 @@ clean: CMakeFiles/signalqueue.dir/clean
 CMakeFiles/signal_receiver.dir/all:
 	$(MAKE) -f CMakeFiles/signal_receiver.dir/build.make CMakeFiles/signal_receiver.dir/depend
 	$(MAKE) -f CMakeFiles/signal_receiver.dir/build.make CMakeFiles/signal_receiver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13,14,15,16 "Built target signal_receiver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=45,46,47,48,49,50,51 "Built target signal_receiver"
 .PHONY : CMakeFiles/signal_receiver.dir/all
 
 # Include target in all.
@@ -134,39 +171,187 @@ clean: CMakeFiles/signal_receiver.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/signal_sender.dir
+# Target rules for target CMakeFiles/catch_sigchld.dir
 
 # All Build rule for target.
-CMakeFiles/signal_sender.dir/all:
-	$(MAKE) -f CMakeFiles/signal_sender.dir/build.make CMakeFiles/signal_sender.dir/depend
-	$(MAKE) -f CMakeFiles/signal_sender.dir/build.make CMakeFiles/signal_sender.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=17,18,19,20,21,22,23 "Built target signal_sender"
-.PHONY : CMakeFiles/signal_sender.dir/all
+CMakeFiles/catch_sigchld.dir/all:
+	$(MAKE) -f CMakeFiles/catch_sigchld.dir/build.make CMakeFiles/catch_sigchld.dir/depend
+	$(MAKE) -f CMakeFiles/catch_sigchld.dir/build.make CMakeFiles/catch_sigchld.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target catch_sigchld"
+.PHONY : CMakeFiles/catch_sigchld.dir/all
 
 # Include target in all.
-all: CMakeFiles/signal_sender.dir/all
+all: CMakeFiles/catch_sigchld.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/signal_sender.dir/rule: cmake_check_build_system
+CMakeFiles/catch_sigchld.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/signal_sender.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/catch_sigchld.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/signal_sender.dir/rule
+.PHONY : CMakeFiles/catch_sigchld.dir/rule
 
 # Convenience name for target.
-signal_sender: CMakeFiles/signal_sender.dir/rule
+catch_sigchld: CMakeFiles/catch_sigchld.dir/rule
 
-.PHONY : signal_sender
-
-# clean rule for target.
-CMakeFiles/signal_sender.dir/clean:
-	$(MAKE) -f CMakeFiles/signal_sender.dir/build.make CMakeFiles/signal_sender.dir/clean
-.PHONY : CMakeFiles/signal_sender.dir/clean
+.PHONY : catch_sigchld
 
 # clean rule for target.
-clean: CMakeFiles/signal_sender.dir/clean
+CMakeFiles/catch_sigchld.dir/clean:
+	$(MAKE) -f CMakeFiles/catch_sigchld.dir/build.make CMakeFiles/catch_sigchld.dir/clean
+.PHONY : CMakeFiles/catch_sigchld.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/catch_sigchld.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/necho_args.dir
+
+# All Build rule for target.
+CMakeFiles/necho_args.dir/all:
+	$(MAKE) -f CMakeFiles/necho_args.dir/build.make CMakeFiles/necho_args.dir/depend
+	$(MAKE) -f CMakeFiles/necho_args.dir/build.make CMakeFiles/necho_args.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target necho_args"
+.PHONY : CMakeFiles/necho_args.dir/all
+
+# Include target in all.
+all: CMakeFiles/necho_args.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/necho_args.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/necho_args.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/necho_args.dir/rule
+
+# Convenience name for target.
+necho_args: CMakeFiles/necho_args.dir/rule
+
+.PHONY : necho_args
+
+# clean rule for target.
+CMakeFiles/necho_args.dir/clean:
+	$(MAKE) -f CMakeFiles/necho_args.dir/build.make CMakeFiles/necho_args.dir/clean
+.PHONY : CMakeFiles/necho_args.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/necho_args.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/signalqueue.dir
+
+# All Build rule for target.
+CMakeFiles/signalqueue.dir/all:
+	$(MAKE) -f CMakeFiles/signalqueue.dir/build.make CMakeFiles/signalqueue.dir/depend
+	$(MAKE) -f CMakeFiles/signalqueue.dir/build.make CMakeFiles/signalqueue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=54,55,56,57,58,59,60 "Built target signalqueue"
+.PHONY : CMakeFiles/signalqueue.dir/all
+
+# Include target in all.
+all: CMakeFiles/signalqueue.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/signalqueue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/signalqueue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/signalqueue.dir/rule
+
+# Convenience name for target.
+signalqueue: CMakeFiles/signalqueue.dir/rule
+
+.PHONY : signalqueue
+
+# clean rule for target.
+CMakeFiles/signalqueue.dir/clean:
+	$(MAKE) -f CMakeFiles/signalqueue.dir/build.make CMakeFiles/signalqueue.dir/clean
+.PHONY : CMakeFiles/signalqueue.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/signalqueue.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/product_consumer_mutex.dir
+
+# All Build rule for target.
+CMakeFiles/product_consumer_mutex.dir/all:
+	$(MAKE) -f CMakeFiles/product_consumer_mutex.dir/build.make CMakeFiles/product_consumer_mutex.dir/depend
+	$(MAKE) -f CMakeFiles/product_consumer_mutex.dir/build.make CMakeFiles/product_consumer_mutex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=38,39,40,41,42,43,44 "Built target product_consumer_mutex"
+.PHONY : CMakeFiles/product_consumer_mutex.dir/all
+
+# Include target in all.
+all: CMakeFiles/product_consumer_mutex.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/product_consumer_mutex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/product_consumer_mutex.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/product_consumer_mutex.dir/rule
+
+# Convenience name for target.
+product_consumer_mutex: CMakeFiles/product_consumer_mutex.dir/rule
+
+.PHONY : product_consumer_mutex
+
+# clean rule for target.
+CMakeFiles/product_consumer_mutex.dir/clean:
+	$(MAKE) -f CMakeFiles/product_consumer_mutex.dir/build.make CMakeFiles/product_consumer_mutex.dir/clean
+.PHONY : CMakeFiles/product_consumer_mutex.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/product_consumer_mutex.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fork.dir
+
+# All Build rule for target.
+CMakeFiles/fork.dir/all:
+	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/depend
+	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19,20,21 "Built target fork"
+.PHONY : CMakeFiles/fork.dir/all
+
+# Include target in all.
+all: CMakeFiles/fork.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fork.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fork.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/fork.dir/rule
+
+# Convenience name for target.
+fork: CMakeFiles/fork.dir/rule
+
+.PHONY : fork
+
+# clean rule for target.
+CMakeFiles/fork.dir/clean:
+	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/clean
+.PHONY : CMakeFiles/fork.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/fork.dir/clean
 
 .PHONY : clean
 
@@ -177,7 +362,7 @@ clean: CMakeFiles/signal_sender.dir/clean
 CMakeFiles/catch_t_sigs.dir/all:
 	$(MAKE) -f CMakeFiles/catch_t_sigs.dir/build.make CMakeFiles/catch_t_sigs.dir/depend
 	$(MAKE) -f CMakeFiles/catch_t_sigs.dir/build.make CMakeFiles/catch_t_sigs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target catch_t_sigs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target catch_t_sigs"
 .PHONY : CMakeFiles/catch_t_sigs.dir/all
 
 # Include target in all.
@@ -208,39 +393,76 @@ clean: CMakeFiles/catch_t_sigs.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/necho_args.dir
+# Target rules for target CMakeFiles/thread.dir
 
 # All Build rule for target.
-CMakeFiles/necho_args.dir/all:
-	$(MAKE) -f CMakeFiles/necho_args.dir/build.make CMakeFiles/necho_args.dir/depend
-	$(MAKE) -f CMakeFiles/necho_args.dir/build.make CMakeFiles/necho_args.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target necho_args"
-.PHONY : CMakeFiles/necho_args.dir/all
+CMakeFiles/thread.dir/all:
+	$(MAKE) -f CMakeFiles/thread.dir/build.make CMakeFiles/thread.dir/depend
+	$(MAKE) -f CMakeFiles/thread.dir/build.make CMakeFiles/thread.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=61,62,63,64,65,66,67 "Built target thread"
+.PHONY : CMakeFiles/thread.dir/all
 
 # Include target in all.
-all: CMakeFiles/necho_args.dir/all
+all: CMakeFiles/thread.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/necho_args.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/necho_args.dir/all
+CMakeFiles/thread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/thread.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/necho_args.dir/rule
+.PHONY : CMakeFiles/thread.dir/rule
 
 # Convenience name for target.
-necho_args: CMakeFiles/necho_args.dir/rule
+thread: CMakeFiles/thread.dir/rule
 
-.PHONY : necho_args
-
-# clean rule for target.
-CMakeFiles/necho_args.dir/clean:
-	$(MAKE) -f CMakeFiles/necho_args.dir/build.make CMakeFiles/necho_args.dir/clean
-.PHONY : CMakeFiles/necho_args.dir/clean
+.PHONY : thread
 
 # clean rule for target.
-clean: CMakeFiles/necho_args.dir/clean
+CMakeFiles/thread.dir/clean:
+	$(MAKE) -f CMakeFiles/thread.dir/build.make CMakeFiles/thread.dir/clean
+.PHONY : CMakeFiles/thread.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/thread.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mutex_lock.dir
+
+# All Build rule for target.
+CMakeFiles/mutex_lock.dir/all:
+	$(MAKE) -f CMakeFiles/mutex_lock.dir/build.make CMakeFiles/mutex_lock.dir/depend
+	$(MAKE) -f CMakeFiles/mutex_lock.dir/build.make CMakeFiles/mutex_lock.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles --progress-num=22,23,24,25,26,27,28 "Built target mutex_lock"
+.PHONY : CMakeFiles/mutex_lock.dir/all
+
+# Include target in all.
+all: CMakeFiles/mutex_lock.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mutex_lock.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mutex_lock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/mutex_lock.dir/rule
+
+# Convenience name for target.
+mutex_lock: CMakeFiles/mutex_lock.dir/rule
+
+.PHONY : mutex_lock
+
+# clean rule for target.
+CMakeFiles/mutex_lock.dir/clean:
+	$(MAKE) -f CMakeFiles/mutex_lock.dir/build.make CMakeFiles/mutex_lock.dir/clean
+.PHONY : CMakeFiles/mutex_lock.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mutex_lock.dir/clean
 
 .PHONY : clean
 

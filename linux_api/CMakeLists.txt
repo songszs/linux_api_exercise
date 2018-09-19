@@ -11,7 +11,7 @@ set(SOURCE_FILES lib/tlpi_hdr.h lib/error_functions.h lib/error_functions.c lib/
 add_executable(necho_args process/necho_args.c)
 
 add_executable(signal_sender signal/signal_sender.c
-        ${SOURCE_FILES})
+        ${SCE_FILES})
 
 add_executable(signal_receiver signal/signal_receiver.c
         ${SOURCE_FILES})
@@ -19,4 +19,24 @@ add_executable(signal_receiver signal/signal_receiver.c
 add_executable(signalqueue signal/t_sigquequ.c
         ${SOURCE_FILES})
 add_executable(catch_t_sigs signal/catch_t_sigs.c
+        ${SOURCE_FILES} )
+add_executable(catch_sigchld signal/catch_sigchld.c
+        ${SOURCE_FILES} )
+
+add_executable(fork process/fork.c
         ${SOURCE_FILES})
+
+add_executable(thread thread/pthread_create.c
+        ${SOURCE_FILES})
+
+add_executable(mutex_lock thread/mutex_lock.c
+        ${SOURCE_FILES})
+add_executable(product_consumer_mutex thread/producter_consumer_mutex.c
+        ${SOURCE_FILES})
+add_executable(product_consumer_cond thread/producter_consumer_cond.c
+        ${SOURCE_FILES})
+find_package(Threads REQUIRED)
+target_link_libraries(thread Threads::Threads)
+target_link_libraries(mutex_lock Threads::Threads)
+target_link_libraries(product_consumer_mutex Threads::Threads)
+target_link_libraries(product_consumer_cond Threads::Threads)

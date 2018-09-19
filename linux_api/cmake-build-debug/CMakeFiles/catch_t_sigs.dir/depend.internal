@@ -18,6 +18,10 @@ CMakeFiles/catch_t_sigs.dir/lib/syscall_speed.c.o
  /home/zs/workspace/linux_program_test/linux_api/lib/get_num.h
  /home/zs/workspace/linux_program_test/linux_api/lib/syscall_speed.c
  /home/zs/workspace/linux_program_test/linux_api/lib/tlpi_hdr.h
+CMakeFiles/catch_t_sigs.dir/signal/catch_sigchld.c.o
+ /home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h
+ /home/zs/workspace/linux_program_test/linux_api/lib/get_num.h
+ /home/zs/workspace/linux_program_test/linux_api/signal/catch_sigchld.c
 CMakeFiles/catch_t_sigs.dir/signal/catch_t_sigs.c.o
  /home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h
  /home/zs/workspace/linux_program_test/linux_api/lib/get_num.h
