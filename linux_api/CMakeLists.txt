@@ -35,6 +35,14 @@ add_executable(product_consumer_mutex thread/producter_consumer_mutex.c
         ${SOURCE_FILES})
 add_executable(product_consumer_cond thread/producter_consumer_cond.c
         ${SOURCE_FILES})
+
+add_executable(pipe pipe/pipe.c
+        ${SOURCE_FILES} pipe/fifo.c pipe/fifo_seqnum_server.h pipe/fifo_client.c)
+
+add_executable(sysv systemv_msg_queue/svmsg_send.c
+        ${SOURCE_FILES})
+add_executable(sysv_create systemv_msg_queue/svmsg_create.c
+        ${SOURCE_FILES})
 find_package(Threads REQUIRED)
 target_link_libraries(thread Threads::Threads)
 target_link_libraries(mutex_lock Threads::Threads)
