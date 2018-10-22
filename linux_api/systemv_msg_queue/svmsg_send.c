@@ -36,6 +36,7 @@ int main(int argc,char *argv[])
 
     flags = 0;
 
+    //获取命令行参数
     while((opt = getopt(argc,argv,"n")) != -1)
     {
         if(opt == 'n')
@@ -44,17 +45,22 @@ int main(int argc,char *argv[])
             usageError(argv[0],NULL);
     }
 
+    //获取消息id
     msqid = getInt(argv[optind],0,"msqid");
+    //获取消息类型
     msg.mtype = getInt(argv[optind+1],0,"msqid");
 
     if(argc>optind +2){
+        //消息长度
         msglen = strlen(argv[optind+2])+1;
         if(msglen > MAX_MTEXT)
             cmdLineErr("msg too long");
+        //复制消息内容
         memcpy(msg.mtext,argv[optind+2],msglen);
     } else
         msglen = 0;
 
+    //发送消息
     if(msgsnd(msqid,&msg,msglen,flags)==-1)
         errExit("msgsnd");
 

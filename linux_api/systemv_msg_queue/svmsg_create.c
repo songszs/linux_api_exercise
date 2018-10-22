@@ -44,10 +44,10 @@ int main(int argc,char *argv[])
     {
         switch (opt)
         {
-            case 'c':
+            case 'c': //私有创建一个key
                 flags |= IPC_CREAT;
                 break;
-            case 'f':
+            case 'f': //根据文件创建一个key
                 key = ftok(optarg,1);
                 if(key == -1)
                     errExit("ftok");
@@ -60,11 +60,11 @@ int main(int argc,char *argv[])
                 key = lkey;
                 numKeyFlags++;
                 break;
-            case 'p':
+            case 'p': //创建一个私有key
                 key = IPC_PRIVATE;
                 numKeyFlags++;
                 break;
-            case 'x':
+            case 'x': //如果key已经存在，那么就会调用失败并返回错误
                 flags |= IPC_EXCL;
                 break;
 

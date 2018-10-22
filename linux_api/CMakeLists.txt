@@ -43,6 +43,11 @@ add_executable(sysv systemv_msg_queue/svmsg_send.c
         ${SOURCE_FILES})
 add_executable(sysv_create systemv_msg_queue/svmsg_create.c
         ${SOURCE_FILES})
+add_executable(sysv_recv systemv_msg_queue/svmsg_recv.c
+        ${SOURCE_FILES})
+
+add_executable(pshm_create posix/pshm_create.c
+        ${SOURCE_FILES})
 find_package(Threads REQUIRED)
 target_link_libraries(thread Threads::Threads)
 target_link_libraries(mutex_lock Threads::Threads)
