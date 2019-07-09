@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/pshm_create.dir/posix/pshm_create.c.o CMakeFiles/pshm_create.dir/lib/error_functions.c.o CMakeFiles/pshm_create.dir/lib/get_num.c.o CMakeFiles/pshm_create.dir/lib/alt_functions.c.o CMakeFiles/pshm_create.dir/lib/syscall_speed.c.o CMakeFiles/pshm_create.dir/signal/signal_functions.c.o  -o pshm_create 

@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/pipe.dir/pipe/pipe.c.o CMakeFiles/pipe.dir/lib/error_functions.c.o CMakeFiles/pipe.dir/lib/get_num.c.o CMakeFiles/pipe.dir/lib/alt_functions.c.o CMakeFiles/pipe.dir/lib/syscall_speed.c.o CMakeFiles/pipe.dir/signal/signal_functions.c.o CMakeFiles/pipe.dir/pipe/fifo.c.o CMakeFiles/pipe.dir/pipe/fifo_client.c.o  -o pipe 

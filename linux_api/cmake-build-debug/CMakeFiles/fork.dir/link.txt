@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/fork.dir/process/fork.c.o CMakeFiles/fork.dir/lib/error_functions.c.o CMakeFiles/fork.dir/lib/get_num.c.o CMakeFiles/fork.dir/lib/alt_functions.c.o CMakeFiles/fork.dir/lib/syscall_speed.c.o CMakeFiles/fork.dir/signal/signal_functions.c.o  -o fork 
+/usr/bin/cc  -g   CMakeFiles/fork.dir/process/fork.c.o CMakeFiles/fork.dir/lib/error_functions.c.o CMakeFiles/fork.dir/lib/get_num.c.o CMakeFiles/fork.dir/lib/alt_functions.c.o CMakeFiles/fork.dir/lib/syscall_speed.c.o CMakeFiles/fork.dir/signal/signal_functions.c.o  -o fork 

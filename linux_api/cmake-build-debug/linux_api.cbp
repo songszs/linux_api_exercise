@@ -1,705 +1,1301 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_project_file>
-	<FileVersion major="1" minor="6"/>
-	<Project>
-		<Option title="linux_api"/>
-		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
-		<Build>
-			<Target title="all">
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="product_consumer_cond">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/product_consumer_cond" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_consumer_cond"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="product_consumer_cond/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/product_consumer_cond" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_consumer_cond/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="signal_sender">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_sender" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_sender"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="signal_sender/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_sender" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_sender/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="signal_receiver">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_receiver" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_receiver"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="signal_receiver/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_receiver" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_receiver/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="catch_sigchld">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/catch_sigchld" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 catch_sigchld"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="catch_sigchld/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/catch_sigchld" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 catch_sigchld/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="necho_args">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/necho_args" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 necho_args"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="necho_args/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/necho_args" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 necho_args/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="signalqueue">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signalqueue" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signalqueue"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="signalqueue/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signalqueue" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signalqueue/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="product_consumer_mutex">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/product_consumer_mutex" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_consumer_mutex"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="product_consumer_mutex/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/product_consumer_mutex" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_consumer_mutex/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="fork">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/fork" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 fork"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="fork/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/fork" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 fork/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="catch_t_sigs">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/catch_t_sigs" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 catch_t_sigs"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="catch_t_sigs/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/catch_t_sigs" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 catch_t_sigs/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="thread">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/thread" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="thread/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/thread" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="mutex_lock">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/mutex_lock" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 mutex_lock"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="mutex_lock/fast">
-				<Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/mutex_lock" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 mutex_lock/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-		</Build>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.c">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.h">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/ename.c.inc">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.c">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/get_num.c">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/get_num.h">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/syscall_speed.c">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/tlpi_hdr.h">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/process/fork.c">
-			<Option target="fork"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/process/necho_args.c">
-			<Option target="necho_args"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/catch_sigchld.c">
-			<Option target="catch_sigchld"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/catch_t_sigs.c">
-			<Option target="catch_t_sigs"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.c">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.h">
-			<Option target="product_consumer_cond"/>
-			<Option target="signal_receiver"/>
-			<Option target="catch_sigchld"/>
-			<Option target="signalqueue"/>
-			<Option target="product_consumer_mutex"/>
-			<Option target="fork"/>
-			<Option target="catch_t_sigs"/>
-			<Option target="thread"/>
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_receiver.c">
-			<Option target="signal_receiver"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_sender.c">
-			<Option target="signal_sender"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/t_sigquequ.c">
-			<Option target="signalqueue"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/thread/mutex_lock.c">
-			<Option target="mutex_lock"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/thread/producter_consumer_cond.c">
-			<Option target="product_consumer_cond"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/thread/producter_consumer_mutex.c">
-			<Option target="product_consumer_mutex"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/thread/pthread_create.c">
-			<Option target="thread"/>
-		</Unit>
-		<Unit filename="/home/zs/workspace/linux_program_test/linux_api/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-	</Project>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="linux_api" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mutex_lock">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/mutex_lock" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 mutex_lock" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mutex_lock/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/mutex_lock" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 mutex_lock/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sysv">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/sysv" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 sysv" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sysv/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/sysv" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 sysv/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="thread">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/thread" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="thread/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/thread" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fork">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/fork" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 fork" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fork/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/fork" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 fork/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="necho_args">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/necho_args" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 necho_args" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="necho_args/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/necho_args" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 necho_args/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pshm_create">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/pshm_create" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 pshm_create" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pshm_create/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/pshm_create" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 pshm_create/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="signalqueue">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signalqueue" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signalqueue" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="signalqueue/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signalqueue" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signalqueue/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="file">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/file" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 file" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="file/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/file" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 file/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="catch_sigchld">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/catch_sigchld" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 catch_sigchld" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="catch_sigchld/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/catch_sigchld" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 catch_sigchld/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sysv_recv">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/sysv_recv" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 sysv_recv" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sysv_recv/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/sysv_recv" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 sysv_recv/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="product_consumer_mutex">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/product_consumer_mutex" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_consumer_mutex" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="product_consumer_mutex/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/product_consumer_mutex" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_consumer_mutex/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mmaptest">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/mmaptest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmaptest" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mmaptest/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/mmaptest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmaptest/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="signal_sender">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_sender" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_sender" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="signal_sender/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_sender" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_sender/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="product_consumer_cond">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/product_consumer_cond" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_consumer_cond" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="product_consumer_cond/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/product_consumer_cond" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_consumer_cond/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="file_lock_proc1">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/file_lock_proc1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_lock_proc1" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="file_lock_proc1/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/file_lock_proc1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_lock_proc1/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sysv_create">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/sysv_create" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 sysv_create" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sysv_create/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/sysv_create" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 sysv_create/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="catch_t_sigs">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/catch_t_sigs" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 catch_t_sigs" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="catch_t_sigs/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/catch_t_sigs" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 catch_t_sigs/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="signal_receiver">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_receiver" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_receiver" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="signal_receiver/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/signal_receiver" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal_receiver/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="file_lock_1">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/file_lock_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_lock_1" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="file_lock_1/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/file_lock_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_lock_1/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pipe">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/pipe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 pipe" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pipe/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/pipe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 pipe/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="file_lock_proc2">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/file_lock_proc2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_lock_proc2" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="file_lock_proc2/fast">
+         <Option output="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/file_lock_proc2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_lock_proc2/fast" />
+            <CompileFile command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/local/bin/make -f &quot;/home/zs/workspace/linux_program_test/linux_api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/file_api/file_read_write.c">
+         <Option target="file"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/file_lock/proc1.c">
+         <Option target="file_lock_proc1"/>
+         <Option target="file_lock_1"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/file_lock/proc2.c">
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.c">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/alt_functions.h">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/ename.c.inc">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.c">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/error_functions.h">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/get_num.c">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/get_num.h">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/syscall_speed.c">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/lib/tlpi_hdr.h">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/mmap/mmaptest.c">
+         <Option target="mmaptest"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/pipe/fifo.c">
+         <Option target="pipe"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/pipe/fifo_client.c">
+         <Option target="pipe"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/pipe/fifo_seqnum_server.h">
+         <Option target="pipe"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/pipe/pipe.c">
+         <Option target="pipe"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/posix/pshm_create.c">
+         <Option target="pshm_create"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/process/fork.c">
+         <Option target="fork"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/process/necho_args.c">
+         <Option target="necho_args"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/catch_sigchld.c">
+         <Option target="catch_sigchld"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/catch_t_sigs.c">
+         <Option target="catch_t_sigs"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.c">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_functions.h">
+         <Option target="mutex_lock"/>
+         <Option target="sysv"/>
+         <Option target="thread"/>
+         <Option target="fork"/>
+         <Option target="pshm_create"/>
+         <Option target="signalqueue"/>
+         <Option target="catch_sigchld"/>
+         <Option target="sysv_recv"/>
+         <Option target="product_consumer_mutex"/>
+         <Option target="mmaptest"/>
+         <Option target="product_consumer_cond"/>
+         <Option target="file_lock_proc1"/>
+         <Option target="sysv_create"/>
+         <Option target="catch_t_sigs"/>
+         <Option target="signal_receiver"/>
+         <Option target="file_lock_1"/>
+         <Option target="pipe"/>
+         <Option target="file_lock_proc2"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_receiver.c">
+         <Option target="signal_receiver"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/signal_sender.c">
+         <Option target="signal_sender"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/signal/t_sigquequ.c">
+         <Option target="signalqueue"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/systemv_msg_queue/svmsg_create.c">
+         <Option target="sysv_create"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/systemv_msg_queue/svmsg_recv.c">
+         <Option target="sysv_recv"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/systemv_msg_queue/svmsg_send.c">
+         <Option target="sysv"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/thread/mutex_lock.c">
+         <Option target="mutex_lock"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/thread/producter_consumer_cond.c">
+         <Option target="product_consumer_cond"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/thread/producter_consumer_mutex.c">
+         <Option target="product_consumer_mutex"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/thread/pthread_create.c">
+         <Option target="thread"/>
+      </Unit>
+      <Unit filename="/home/zs/workspace/linux_program_test/linux_api/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
 </CodeBlocks_project_file>

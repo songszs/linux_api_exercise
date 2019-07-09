@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.5)
 project(linux_api)
 
 set(CMAKE_C_STANDARD 99)
@@ -9,6 +9,7 @@ set(SOURCE_FILES lib/tlpi_hdr.h lib/error_functions.h lib/error_functions.c lib/
         signal/signal_functions.c)
 
 add_executable(necho_args process/necho_args.c)
+add_executable(file file_api/file_read_write.c)
 
 add_executable(signal_sender signal/signal_sender.c
         ${SCE_FILES})
@@ -54,6 +55,9 @@ add_executable(file_lock_1 file_lock/proc1.c
 add_executable(file_lock_proc1 file_lock/proc1.c
         ${SOURCE_FILES})
 add_executable(file_lock_proc2 file_lock/proc2.c
+        ${SOURCE_FILES})
+
+add_executable(mmaptest mmap/mmaptest.c
         ${SOURCE_FILES})
 find_package(Threads REQUIRED)
 target_link_libraries(thread Threads::Threads)

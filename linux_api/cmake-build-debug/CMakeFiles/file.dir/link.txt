@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/file.dir/file_api/file_read_write.c.o  -o file 
